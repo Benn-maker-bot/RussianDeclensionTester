@@ -1,0 +1,11 @@
+﻿<Window x:Class="RussianDeclensionTester.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Russian Noun Declension Tester" Height="350" Width="525">
+    <Grid>
+        <Label x:Name="QuestionLabel" Content="" FontSize="16" HorizontalAlignment="Center" Margin="10,10,10,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="AnswerTextBox" FontSize="16" HorizontalAlignment="Center" Width="200" Margin="0,50,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="SubmitButton" Content="Submit Answer" FontSize="16" HorizontalAlignment="Center" Width="150" Margin="0,100,0,0" VerticalAlignment="Top" Click="SubmitButton_Click"/>
+        <Button x:Name="NewQuestionButton" Content="New Question" FontSize="16" HorizontalAlignment="Center" Width="150" Margin="0,150,0,0" VerticalAlignment="Top" Click="NewQuestionButton_Click"/>
+    </Grid>
+</Window>
